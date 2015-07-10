@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.yourwebpro.ToMySite"
         version   = "2.5.0">
     <name>2 My Site</name>
 
@@ -15,16 +15,16 @@
 
     
 
-    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 	
-	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.camera" version="0.2.4" />
 	<!--<gap:plugin name="org.apache.cordova.network-information" />-->
-	<gap:plugin name="org.apache.cordova.media-capture" />
+	<gap:plugin name="org.apache.cordova.media-capture" version="0.2.4" />
 	<!--<gap:plugin name="org.apache.cordova.file" />-->
-	
+
 	
     <access origin=".*" />  
 	<access origin="http://sitedini.com" />
