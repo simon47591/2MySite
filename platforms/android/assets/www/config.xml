@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello_world"
+        id        = "com.yourwebpro.ToMySite"
         version   = "2.2.0">
     <name>2 My Site</name>
-
+<content src="index.html" />
     <description>
         Application to submit website content to YourWebPro
     </description>
@@ -23,7 +23,7 @@
 	<gap:plugin name="org.apache.cordova.camera" />
 	<!--<gap:plugin name="org.apache.cordova.network-information" />-->
 	<gap:plugin name="org.apache.cordova.media-capture" />
-	<gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+	<!--<gap:plugin name="org.apache.cordova.file" version="1.3.1" />-->
 	
 	
     <access origin=".*" />  
