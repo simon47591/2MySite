@@ -20,10 +20,10 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 	
-	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-	<!--<gap:plugin name="org.apache.cordova.network-information" version="0.2.4"/>-->
-	<gap:plugin name="org.apache.cordova.media-capture" version="0.2.4" />
-	<gap:plugin name="org.apache.cordova.file" version="0.2.4"/>
+<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+<gap:plugin name="org.apache.cordova.file" version="0.2.4" />
+<gap:plugin name="org.apache.cordova.media-capture" version="0.2.4" />
+
 
 	
     <access origin=".*" />  
