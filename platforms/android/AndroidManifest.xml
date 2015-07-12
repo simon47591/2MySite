@@ -2,7 +2,7 @@
 <<<<<<< HEAD
 <manifest android:hardwareAccelerated="true" android:versionCode="20200" android:versionName="2.2.0" package="com.yourwebpro.ToMySite" xmlns:android="http://schemas.android.com/apk/res/android">
 =======
-<manifest android:hardwareAccelerated="true" android:versionCode="20500" android:versionName="3.0.0" package="com.yourwebpro.ToMySite" xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest android:hardwareAccelerated="true" android:versionCode="20500" android:versionName="3.1.0" package="com.yourwebpro.ToMySite" xmlns:android="http://schemas.android.com/apk/res/android">
 >>>>>>> c291a604aa3fb2b486cc8b08ea237b5a4ada3218
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
     <uses-permission android:name="android.permission.INTERNET" />
