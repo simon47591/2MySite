@@ -187,7 +187,7 @@ function sendEmail(testimonial,clientname,date){
 			params.textVal = textVal;
             options.params = params;
             options.chunkedMode = false;
-            var ft = new ();
+            var ft = new FileTransfer();
             ft.upload(imageURI, "http://sitedini.com/ywp/phoneApp/ajax.php", win(num), fail, options);
  
         }
