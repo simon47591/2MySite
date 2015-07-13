@@ -187,7 +187,7 @@ function sendEmail(testimonial,clientname,date){
 			params.textVal = textVal;
             options.params = params;
             options.chunkedMode = false;
-            var ft = new FileTransfer();
+            var ft = new ();
             ft.upload(imageURI, "http://sitedini.com/ywp/phoneApp/ajax.php", win(num), fail, options);
  
         }
@@ -245,7 +245,7 @@ function deleteVideos(){
         $("#imgPlaceholder").html('');
 		$("#textValVideo").html('').fadeOut(100);
 		$("#addFromGallery").fadeIn(100);
-	    $("#addFromCamera").fadeIn(100);
+	    //$("#addFromCamera").fadeIn(100);
     });
 }
 
