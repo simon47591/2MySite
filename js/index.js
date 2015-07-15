@@ -99,7 +99,7 @@ function onMobileReady(){
  });
 
 
-
+closePopup();
 // End onMobileReady()	
 }
 
@@ -389,3 +389,20 @@ function submitVideoDets(mediaFile){
             alert("An error has occurred: Code = " + error.code);
 			$("#form-submitPhoto-trap-wrap").html("An error has occurred: Code = "+error.code);
         }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+// Close popup function
+function closePopup(){
+	$(".closePopup").click(function(){
+		var parEl = $(this).parents(".popup-wrap");
+		parEl.fadeOut(200);
+		$(".opac-BG").fadeOut(200);
+	});
+}
