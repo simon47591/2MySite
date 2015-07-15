@@ -27,6 +27,7 @@
 	  $("#backBtn-Capture").attr("href","#submitPhotos");
 	  $("#addFromGallery").attr("onclick","getPhoto(pictureSource.PHOTOLIBRARY);");
 	  $("#addFromCamera").attr("onclick","capturePhoto();");
+	  $("#addFromCamera").show();
 	  $(".mediaType").html("photos(s)");
     }
 	
@@ -73,6 +74,7 @@
 	  $("#backBtn-Capture").attr("href","#submitVideos");
 	  $("#addFromGallery").attr("onclick","getVideo(pictureSource.PHOTOLIBRARY);");
 	  $("#addFromCamera").attr("onclick","captureVideo();");
+	  $("#addFromCamera").hide();
 	  $(".mediaType").html("video(s)");
     }
 	
