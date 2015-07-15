@@ -149,4 +149,8 @@ html body .ui-group-theme-a a:active {
 .footer { font-size:11px; }
 .imagesToUpload { width:46%; }
 #settingsEmpty, #photoDetails, #photoSucess { display:none;position:absolute;z-index:100000;width:96%;margin:0 2%;left:0; }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8d6e89bbd1d754e72cdeac1dcde6051b50ccb65d
