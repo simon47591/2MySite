@@ -405,8 +405,4 @@ function closePopup(){
 		parEl.fadeOut(200);
 		$(".opac-BG").fadeOut(200);
 	});
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8d6e89bbd1d754e72cdeac1dcde6051b50ccb65d
