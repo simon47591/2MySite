@@ -12,7 +12,7 @@ a { color:#fff; }
 .content { text-align:center;background:#222222;padding:10px 5px 5px 5px;box-sizing:border-box;height:100%;margin-bottom:50px; }
 .pageTitle { color:#fff;font-size:24px;text-align:left;text-shadow:none;margin:8px 10px 15px 10px;padding:0 8px 12px 8px;border-bottom:#eee 1px dotted; }
 .content .content-description { color:#fff;font-size:14px;text-shadow:none;margin-top:40px; }
-#settingsEmpty, #photoDetails, #photoSucess { display:none;position:absolute;z-index:100000;width:360px;margin:0 auto;left:50%;margin-left:-180px; }
+#settingsEmpty, #photoDetails, #photoSucess, #photoUploading { display:none;position:absolute;z-index:100000;width:360px;margin:0 auto;left:50%;margin-left:-180px; }
 
 
 /* Navigation */
@@ -148,9 +148,5 @@ html body .ui-group-theme-a a:active {
 .navlink span { width:15px;height:34px;background-size:15px;right:11px;top:19px; }
 .footer { font-size:11px; }
 .imagesToUpload { width:46%; }
-#settingsEmpty, #photoDetails, #photoSucess { display:none;position:absolute;z-index:100000;width:96%;margin:0 2%;left:0; }
-<<<<<<< HEAD
+#settingsEmpty, #photoDetails, #photoSucess, #photoUploading { display:none;position:absolute;z-index:100000;width:96%;margin:0 2%;left:0; }
 }
-=======
-}
->>>>>>> 8d6e89bbd1d754e72cdeac1dcde6051b50ccb65d
