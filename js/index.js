@@ -167,6 +167,7 @@ function sendEmail(testimonial,clientname,date){
 
 // Send Photos
         function submitPhoto(imageURI,num,selVal,textVal){
+			$("#photoUploading").show();
 			var fullname = $("#form-settings-fullname").val();
 			var businessname = $("#form-settings-businessname").val();
 			var email = $("#form-settings-email").val();
@@ -256,7 +257,6 @@ function deleteVideos(){
 function submitPhotoDets(){
 	$("#submitPhotoBtn").unbind();
 	$("#submitPhotoBtn").click(function(){ 
-	$("#photoUploading").show();
 	 	var imgData = $("#form-submitPhoto-trap").html();
 			imgData = imgData.slice(0,-5);
 	 		$imgDataRes = imgData.split(":::::");
