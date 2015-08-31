@@ -330,6 +330,7 @@ function photoDetails(img,num){
 function submitVideoDets(mediaFile){
 	$("#submitPhotoBtn").unbind();
 	$("#submitPhotoBtn").click(function(){ 
+	$("#photoUploading").show();
          uploadFile(mediaFile)
 	});
 }
