@@ -99,7 +99,7 @@ function onMobileReady(){
  });
 
 
-
+closePopup();
 // End onMobileReady()	
 }
 
@@ -197,7 +197,8 @@ function sendEmail(testimonial,clientname,date){
 			if (num>=$imgDataCnt) { 
 				$("#photoDetails").fadeOut(100); 
 				$("#imgPlaceholder").html(''); 
-				$("#photoSucess").fadeIn(100).delay(3000).fadeOut(100);
+				$("#photoUploading").hide();
+				$("#photoSucess").fadeIn(100); //.delay(3000).fadeOut(100);
 				$("#form-submitPhoto-trap").html('');
 				window.location.hash = "#home";
 			}
@@ -255,6 +256,7 @@ function deleteVideos(){
 function submitPhotoDets(){
 	$("#submitPhotoBtn").unbind();
 	$("#submitPhotoBtn").click(function(){ 
+	$("#photoUploading").show();
 	 	var imgData = $("#form-submitPhoto-trap").html();
 			imgData = imgData.slice(0,-5);
 	 		$imgDataRes = imgData.split(":::::");
@@ -372,8 +374,9 @@ function submitVideoDets(mediaFile){
 				setTimeout(function(){
 					$("#textValVideo").fadeOut(100);
 					$("#photoDetails").fadeOut(100); 
-					$("#imgPlaceholder").html(''); 
-					$("#photoSucess").fadeIn(100).delay(3000).fadeOut(100);
+					$("#imgPlaceholder").html('');
+					$("#photoUploading").hide(); 
+					$("#photoSucess").fadeIn(100); //.delay(3000).fadeOut(100);
 					$("#form-submitPhoto-trap").html('');
 					$("#addFromGallery").delay(500).show(100);
 					$("#addFromCamera").delay(500).show(100);
@@ -389,7 +392,7 @@ function submitVideoDets(mediaFile){
             alert("An error has occurred: Code = " + error.code);
 			$("#form-submitPhoto-trap-wrap").html("An error has occurred: Code = "+error.code);
         }
-				
+		
 		
 		
 		
